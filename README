@@ -1,0 +1,28 @@
+=== WHAT IS IT? ===
+This is a simple flavored project provider for Visual Studio that consumes the MonoTouch project GUID subtype, thus allowing you to edit MonoTouch Projects to some degree in Visual Studio without hacks to make extra copies of the project files that have the GUID removed.  I haven't tried it with anything even remotely complicated (e.g. including .xib or build events that trigger UNIX scripts).  It is almost a certainty that there are thing it doesn't do. :-)
+
+=== REFERENCES ===
+In the process of doing this, I consulted the following resources.  You may find them useful to help understand how this works or if you decide to extend it in some way.
+http://mgolchin.blogspot.com/2009/07/project-subtypes.html
+http://blog.codeslower.com/2008/10/Adding-Custom-Project-and-Item-Templates-to-Visual-Studio-2008
+http://mpfproj10.codeplex.com/
+http://mikehadlow.blogspot.com/2007/03/building-visual-studio-custom-project.html
+http://stackoverflow.com/questions/5964890/multiplatform-msbuild-project-file
+http://blog.manniat.net/post/2009/11/18/MonoTouch-in-Visual-Studio.aspx
+http://escoz.com/blog/developing-with-monotouch-on-windows-and-visual-studio/
+
+
+=== INSTALLING ===
+You can install it by double clicking the 'MonoTouchStubProject.vsix' file in the build folder.
+
+If it breaks for some reason, then start an empty Visual Studio and go to 'Tools' => 'Extension Manager' where you can disable or remove it.
+
+=== LICENSE ===
+The MIT License (MIT)
+Copyright 2012 T.J. Purtell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
