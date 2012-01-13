@@ -1,6 +1,9 @@
 === WHAT IS IT? ===
 This is a simple flavored project provider for Visual Studio that consumes the MonoTouch project GUID subtype, thus allowing you to edit MonoTouch Projects to some degree in Visual Studio without hacks to make extra copies of the project files that have the GUID removed.  I haven't tried it with anything even remotely complicated (e.g. including .xib or build events that trigger UNIX scripts).  It is almost a certainty that there are thing it doesn't do. :-)
 
+=== ANOTHER VARIANT WITH MONOMAC SUPPORT... ===
+Go HERE : https://github.com/jamiebriant/VsMono
+
 === REFERENCES ===
 In the process of doing this, I consulted the following resources.  You may find them useful to help understand how this works or if you decide to extend it in some way.
 http://mgolchin.blogspot.com/2009/07/project-subtypes.html

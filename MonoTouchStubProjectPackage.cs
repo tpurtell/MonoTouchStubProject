@@ -27,7 +27,7 @@ namespace NA.MonoTouchStubProject
     // This attribute is used to register the informations needed to show the this package
     // in the Help/About dialog of Visual Studio.
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]
-    [ProvideProjectFactory(typeof(MonoTouchStubProjectFactory), "MonoTouchStubProject", "MonoTouchStubProject Files (*.csproj)", null, null, null)]
+    [ProvideProjectFactory(typeof(MonoTouchStubProjectFactory), "MonoTouchStubProject", "MonoTouchStubProject Files (*.csproj)", null, null, "NOWHERE")]
     [Guid(GuidList.guidMonoTouchStubProjectPkgString)]
     public sealed class MonoTouchStubProjectPackage : Package
     {
